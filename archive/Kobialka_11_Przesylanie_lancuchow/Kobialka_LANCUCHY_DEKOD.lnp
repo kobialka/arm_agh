@@ -1,0 +1,15 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\keyboard.o"
+".\led.o"
+".\main.o"
+".\servo.o"
+".\timer.o"
+".\timer_interrupts.o"
+".\uart.o"
+".\string.o"
+".\command_decoder.o"
+--strict --scatter ".\Kobialka_LANCUCHY_DEKOD.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Kobialka_LANCUCHY_DEKOD.map" -o .\Kobialka_LANCUCHY_DEKOD.axf

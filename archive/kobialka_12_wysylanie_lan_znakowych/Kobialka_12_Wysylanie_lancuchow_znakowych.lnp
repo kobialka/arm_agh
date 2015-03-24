@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+".\uart.o"
+".\string.o"
+".\zegar.o"
+".\timer_interrupts.o"
+".\command_decoder.o"
+".\servo.o"
+".\led.o"
+--strict --scatter ".\Kobialka_12_Wysylanie_lancuchow_znakowych.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Kobialka_12_Wysylanie_lancuchow_znakowych.map" -o .\Kobialka_12_Wysylanie_lancuchow_znakowych.axf

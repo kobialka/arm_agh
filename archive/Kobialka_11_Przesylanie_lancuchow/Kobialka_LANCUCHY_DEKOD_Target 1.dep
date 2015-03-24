@@ -1,0 +1,37 @@
+Dependencies for Project 'Kobialka_LANCUCHY_DEKOD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x54576572)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\keyboard.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\keyboard.h)(0x54576572)
+F (.\led.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\led.h)(0x54576572)
+F (.\main.c)(0x5469B789)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\keyboard.h)(0x54576572)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\servo.h)(0x54576572)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\uart.h)(0x5469B05B)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\string.h)(0x54576572)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\command_decoder.h)(0x54576572)
+F (.\servo.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\servo.o --omf_browse .\servo.crf --depend .\servo.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\servo.h)(0x54576572)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\led.h)(0x54576572)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\timer_interrupts.h)(0x54576572)
+F (.\timer.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\timer.h)(0x54576572)
+F (.\timer_interrupts.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\timer_interrupts.o --omf_browse .\timer_interrupts.crf --depend .\timer_interrupts.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\timer_interrupts.h)(0x54576572)
+F (.\uart.c)(0x5469B057)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC210X.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\uart.h)(0x5469B05B)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\string.h)(0x54576572)
+F (.\string.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\string.o --omf_browse .\string.crf --depend .\string.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\string.h)(0x54576572)
+F (.\command_decoder.c)(0x54576572)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\command_decoder.o --omf_browse .\command_decoder.crf --depend .\command_decoder.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\command_decoder.h)(0x54576572)
+I (C:\ptib\arm\ARM\current\Kobialka_Przesylanie_lancuchow\string.h)(0x54576572)

@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork 
+-I E:\PROGRAMY\Keil\ARM\RV31\INC 
+-I E:\PROGRAMY\Keil\ARM\CMSIS\Include 
+-I E:\PROGRAMY\Keil\ARM\Inc\Philips 
+-o "timer.o" --omf_browse "timer.crf" --depend "timer.d" "timer.c"

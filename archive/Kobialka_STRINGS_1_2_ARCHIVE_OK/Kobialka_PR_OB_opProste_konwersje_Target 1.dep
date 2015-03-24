@@ -1,0 +1,4 @@
+Dependencies for Project 'Kobialka_PR_OB_opProste_konwersje', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F588A28)(--cpu ARM7TDMI -g --apcs=interwork -I E:\PROGRAMY\Keil\ARM\RV31\INC -I E:\PROGRAMY\Keil\ARM\CMSIS\Include -I E:\PROGRAMY\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x52682939)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I E:\PROGRAMY\Keil\ARM\RV31\INC -I E:\PROGRAMY\Keil\ARM\CMSIS\Include -I E:\PROGRAMY\Keil\ARM\Inc\Philips -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (E:\PROGRAMY\Keil\ARM\Inc\Philips\LPC21xx.H)(0x4F5899EC)

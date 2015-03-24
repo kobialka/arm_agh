@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'Kobialka_Automaty.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"keyboard.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" "led.o" "keyboard.o" 
+--strict --scatter "Kobialka_Automaty.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Kobialka_Automaty.map" -o Kobialka_Automaty.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Kobialka_Automaty.axf'
+### ADS-LD Command File: 'Kobialka_Automaty.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Kobialka_Automaty.lnp', Handle=0x00000650
+### Writing '.lnp' file
+### ADS-LD Command file 'Kobialka_Automaty.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

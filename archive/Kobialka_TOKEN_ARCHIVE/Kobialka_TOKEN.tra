@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'Kobialka_TOKEN.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "Kobialka_TOKEN.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Kobialka_TOKEN.map" -o Kobialka_TOKEN.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Kobialka_TOKEN.axf'
+### ADS-LD Command File: 'Kobialka_TOKEN.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Kobialka_TOKEN.lnp', Handle=0x000004EC
+### Writing '.lnp' file
+### ADS-LD Command file 'Kobialka_TOKEN.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

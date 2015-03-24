@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+".\keyboard.o"
+".\led.o"
+".\timer.o"
+".\timer_interrupts.o"
+".\servo.o"
+--strict --scatter ".\Kobialka_Automat_Timer_Przerwanie_Serwo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Kobialka_Automat_Timer_Przerwanie_Serwo.map" -o .\Kobialka_Automat_Timer_Przerwanie_Serwo.axf

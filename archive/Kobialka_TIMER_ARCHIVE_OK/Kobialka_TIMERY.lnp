@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "led.o" "main.o" "timer.o" 
+--strict --scatter "Kobialka_TIMERY.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Kobialka_TIMERY.map" -o Kobialka_TIMERY.axf

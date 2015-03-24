@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\_SZKO£A\Semestr 7\ARM\archive\Kobialka_Automaty\Kobialka_Automaty.uvproj
+Project File Date:  10/20/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling led.c...
+compiling keyboard.c...
+linking...
+Program Size: Code=1484 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"Kobialka_Automaty.axf" - 0 Error(s), 0 Warning(s).

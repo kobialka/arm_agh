@@ -1,9 +1,0 @@
-Dependencies for Project 'spi_basic', Target 'Target 1': (DO NOT MODIFY !)
-F (.\spi_lab.c)(0x55117927)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\spi_lab.o --omf_browse .\spi_lab.crf --depend .\spi_lab.d)
-I (H:\Users\student\Desktop\Student\_KOBIALKA_SZEREGOWE\SPI_BASIC_CURRENT\spi_lab.h)(0x55117911)
-I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
-F (.\spi_lab.h)(0x55117911)()
-F (.\Startup.s)(0x51C7FF5E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\main.c)(0x551178F6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA_SZEREGOWE\SPI_BASIC_CURRENT\spi_lab.h)(0x55117911)

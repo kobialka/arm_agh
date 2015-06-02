@@ -1,4 +1,4 @@
-// SPI Advanced KOBIALKA
+// SPI Advanced KOBIALKA TEST
 
 #include <LPC21xx.H>
 #include "spi_lab.h"

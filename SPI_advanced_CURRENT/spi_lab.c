@@ -1,9 +1,8 @@
-//#include "../inc/spi_lab.h"
 // SPI Advanced KOBIALKA
 
 #include <LPC21xx.H>
 #include "spi_lab.h"
-
+#include "timer.h"
 
 /* PINY  
 	SPI0:
@@ -216,7 +215,7 @@ void Port_MCP23S09_Set(unsigned char ucData){	// piny jako wyjscia
 }
 
 unsigned char Port_MCP23S09_Get(void){
-	
+	char cTemp;
 	sTransactionparams.ucNrOfBytesForTx = 3;
 	sTransactionparams.ucNrOfBytesForRx = 0;
 	sTransactionparams.ucRxBytesOffset = 0;
@@ -231,12 +230,14 @@ unsigned char Port_MCP23S09_Get(void){
 	SPI_ExecuteTransaction(sTransactionparams);
 	IO0SET |= SPI_MCP23S09_CS_PIN_bm;
 	
+	//for( cTemp = 255; cTemp != 0; cTemp--){};
+	
 	sTransactionparams.ucNrOfBytesForTx = 2;
 	sTransactionparams.ucNrOfBytesForRx = 1;
 	sTransactionparams.ucRxBytesOffset = 2;
 	sTransactionparams.ucTxBytesOffset = 0;
 	
-	pucSPI_TxBuffor[0] = 0x41;										// ZAPIS 10111111
+	pucSPI_TxBuffor[0] = 0x41;										// odczyt
 	pucSPI_TxBuffor[1] = MCP23S09_PORT_REG_ADDR;	// PORT adress
 	
 	IO0CLR |= SPI_MCP23S09_CS_PIN_bm;

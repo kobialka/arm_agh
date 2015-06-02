@@ -86,6 +86,30 @@ void UIntToHexStr (unsigned int uiValue, char pcStr[])
 	pcStr[0] = '0';
 }
 
+//---------------------------------------------------------------------------------------
+void UCharToHexStr (unsigned char ucValue, char pcStr[])
+{
+	unsigned char ucTetraCounter;
+	unsigned char ucValueBuff;
+	
+	for (ucTetraCounter = 0; ucTetraCounter < 2; ucTetraCounter++)
+	{
+		ucValueBuff = ( (ucValue >> (ucTetraCounter*4)) & TetraMask_bm );
+		if (ucValueBuff > 9)
+		{
+			pcStr[3 - ucTetraCounter] = ucValueBuff + ('A' - 10);
+		}
+		else
+		{
+			pcStr[3 - ucTetraCounter] = ucValueBuff + '0';
+		}
+	}
+	pcStr[1] = 'x';
+	pcStr[0] = '0';
+	pcStr[4] = NULL;
+}
+
+
 
 //---------------------------------------------------------------------------------------
 tResult eHexStringToUInt(char pcStr[], unsigned int *puiValue)

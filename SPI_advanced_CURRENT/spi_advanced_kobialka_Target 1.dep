@@ -1,55 +1,56 @@
 Dependencies for Project 'spi_advanced_kobialka', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x5548AC30)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\main.c)(0x5548DAA1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\Startup.s)(0x556DA217)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\spi_lab.h)(0x5548D889)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\timer.h)(0x5548AC31)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\uart.h)(0x5548AC31)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\string.h)(0x5548AC31)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\zegar.h)(0x5548AC31)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\timer_interrupts.h)(0x5548AC31)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\command_decoder.h)(0x5548CB09)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\servo.h)(0x5548AC2F)
-F (.\spi_lab.c)(0x5548DBA3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\spi_lab.o --omf_browse .\spi_lab.crf --depend .\spi_lab.d)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\spi_lab.h)(0x5548D889)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\spi_lab.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\timer.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\uart.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\string.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\zegar.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\timer_interrupts.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\command_decoder.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\servo.h)(0x556DA217)
+F (.\spi_lab.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\spi_lab.o --omf_browse .\spi_lab.crf --depend .\spi_lab.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-F (.\timer.c)(0x5548AC31)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\spi_lab.h)(0x556DA217)
+F (.\timer.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\timer.h)(0x5548AC31)
-F (.\command_decoder.c)(0x5548CB21)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\command_decoder.o --omf_browse .\command_decoder.crf --depend .\command_decoder.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\timer.h)(0x556DA217)
+F (.\command_decoder.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\command_decoder.o --omf_browse .\command_decoder.crf --depend .\command_decoder.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\command_decoder.h)(0x5548CB09)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\string.h)(0x5548AC31)
-F (.\keyboard.c)(0x5548AC2E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\command_decoder.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\string.h)(0x556DA217)
+F (.\keyboard.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\keyboard.h)(0x5548AC2E)
-F (.\led.c)(0x5548AC2E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\keyboard.h)(0x556DA217)
+F (.\led.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\led.o --omf_browse .\led.crf --depend .\led.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\led.h)(0x5548AC2E)
-F (.\servo.c)(0x5548AC2F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\servo.o --omf_browse .\servo.crf --depend .\servo.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\led.h)(0x556DA217)
+F (.\servo.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\servo.o --omf_browse .\servo.crf --depend .\servo.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\servo.h)(0x5548AC2F)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\led.h)(0x5548AC2E)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\timer_interrupts.h)(0x5548AC31)
-F (.\string.c)(0x5548AC30)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\string.o --omf_browse .\string.crf --depend .\string.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\servo.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\led.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\timer_interrupts.h)(0x556DA217)
+F (.\string.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\string.o --omf_browse .\string.crf --depend .\string.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\string.h)(0x5548AC31)
-F (.\timer_interrupts.c)(0x5548AC31)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\timer_interrupts.o --omf_browse .\timer_interrupts.crf --depend .\timer_interrupts.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\string.h)(0x556DA217)
+F (.\timer_interrupts.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\timer_interrupts.o --omf_browse .\timer_interrupts.crf --depend .\timer_interrupts.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\timer_interrupts.h)(0x5548AC31)
-F (.\uart.c)(0x5548AC31)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\timer_interrupts.h)(0x556DA217)
+F (.\uart.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
 I (H:\Program Files\Keil\ARM\Inc\Philips\LPC210X.H)(0x51C80D9C)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\uart.h)(0x5548AC31)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\string.h)(0x5548AC31)
-F (.\zegar.c)(0x5548AC31)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\zegar.o --omf_browse .\zegar.crf --depend .\zegar.d)
-I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_advanced_CURRENT\zegar.h)(0x5548AC31)
-F (..\KOBIALKA\arm_agh-master\archive\kobialka_12_wysylanie_lan_znakowych\timer.h)(0x553F8142)()
-F (.\spi_lab.h)(0x5548D889)()
-F (.\command_decoder.h)(0x5548CB09)()
-F (.\keyboard.h)(0x5548AC2E)()
-F (.\led.h)(0x5548AC2E)()
-F (.\servo.h)(0x5548AC2F)()
-F (.\string.h)(0x5548AC31)()
-F (.\timer_interrupts.h)(0x5548AC31)()
-F (.\uart.h)(0x5548AC31)()
-F (.\zegar.h)(0x5548AC31)()
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\uart.h)(0x556DA217)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\string.h)(0x556DA217)
+F (.\zegar.c)(0x556DA217)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "../inc"-I "H:\Program Files\Keil\ARM\RV31\INC"-I "H:\Program Files\Keil\ARM\CMSIS\Include"-I "H:\Program Files\Keil\ARM\Inc\Philips"-o .\zegar.o --omf_browse .\zegar.crf --depend .\zegar.d)
+I (H:\Program Files\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (H:\Users\student\Desktop\Student\_KOBIALKA\SPI_adv_CURR\SPI_advanced_CURRENT\zegar.h)(0x556DA217)
+F (..\KOBIALKA\arm_agh-master\archive\kobialka_12_wysylanie_lan_znakowych\timer.h)(0x00000000)()
+F (.\spi_lab.h)(0x556DA217)()
+F (.\command_decoder.h)(0x556DA217)()
+F (.\keyboard.h)(0x556DA217)()
+F (.\led.h)(0x556DA217)()
+F (.\servo.h)(0x556DA217)()
+F (.\string.h)(0x556DA217)()
+F (.\timer_interrupts.h)(0x556DA217)()
+F (.\uart.h)(0x556DA217)()
+F (.\zegar.h)(0x556DA217)()

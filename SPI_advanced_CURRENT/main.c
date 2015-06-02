@@ -1,4 +1,4 @@
-// SPI Advanced KOBIALKA
+// SPI Advanced KOBIALKA TEST
 
 #include <LPC21xx.H>
 #include "spi_lab.h"
@@ -33,11 +33,10 @@ extern SPI_FrameParams_typedef sFrameParams_DAC;
 extern SPI_FrameParams_typedef sFrameParams_PORT;
 extern SPI_TransactionParams_typedef	sTransactionparams;
 
+unsigned char ucTempVar = 0;
 
 // ==================================================================================
 int main(void){
-	volatile char cTempVar = 0;
-	unsigned int uiTempVar = 0;
 	char	fCalc = 0, fOk = 0, fId = 0, fUnknownComm = 0, fGate = 0;
 	char acStringSec[]="sec ";		
 	char acStringMin[]="min ";
@@ -98,7 +97,8 @@ int main(void){
 				fOk = 0;
 			}
 			else if(1 == fGate){
-				UIntToHexStr(cTempVar, acTempString); 
+				UCharToHexStr(ucTempVar, acTempString); 
+				AppendString("\n",acTempString);
 				Transmiter_SendString(acTempString);
 				fGate = 0;				
 			}
@@ -162,8 +162,9 @@ int main(void){
 						break;
 					
 					case MCP_PORT_RD:
-							uiTempVar = 0;
-							uiTempVar = Port_MCP23S09_Get();
+							ucTempVar = 0;
+							ucTempVar = Port_MCP23S09_Get();
+							Port_MCP23S09_Set(ucTempVar);
 							fGate = 1;
 						break;
 				}

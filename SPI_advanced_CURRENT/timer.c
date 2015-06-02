@@ -16,6 +16,7 @@ void InitTimer0(void)
 	T0TCR |= COUNTER_ENABLE_bm;
 }
 
+
 void WaitOnTimer0(unsigned int uiTime)
 {
 	T0TCR |= COUNTER_RESET_bm;
